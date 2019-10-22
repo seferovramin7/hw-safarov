@@ -27,7 +27,6 @@ public class WeekPlanner {
         System.out.println("Please, input the day of the week:");
         String weekDay = scanner.nextLine();
 
-
         while (!weekDay.equals("Exit")) {
             switch (weekDay) {
                 case "Sunday":
